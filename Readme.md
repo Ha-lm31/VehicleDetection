@@ -21,5 +21,11 @@ yolo detect predict model=/workspaces/model-V8/runs/detect/train/weights/best.pt
 
 ```
 yolo detect train model=/workspaces/model-V8/runs/detect/train/weights/best.pt data=data.yaml epochs=50 imgsz=640
+//50 epochs completed in 0.536 hours.
+
+yolo detect predict model=/workspaces/model-V8/runs/detect/train/weights/best.pt source=/workspaces/model-V8/dataset/images/val/ save=True
+
+yolo detect predict model=/workspaces/model-V8/runs/detect/train/weights/best.pt source=/workspaces/model-V8/dataset/images/val/ save=True verbose=True
+
 
 ```
