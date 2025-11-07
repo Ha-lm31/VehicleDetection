@@ -1,0 +1,22 @@
+[
+  {
+    "model": "yolov8x",
+    "total_vehicles": 1108
+  },
+  {
+    "model": "yolov8l",
+    "total_vehicles": 1091
+  },
+  {
+    "model": "yolov8m",
+    "total_vehicles": 1046
+  },
+  {
+    "model": "yolov8s",
+    "total_vehicles": 1044
+  },
+  {
+    "model": "yolov8n",
+    "total_vehicles": 1004
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "id_images": "frame_0000_jpg.rf.02488de83e72f637bed5d2fdfc2cc10b.jpg",
+    "car": "11",
+    "truck": "1",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "13"
+  },
+  {
+    "id_images": "frame_0001_jpg.rf.c922f40451a8493f9642bbb852e4f5fb.jpg",
+    "car": "10",
+    "truck": "2",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "13"
+  },
+  {
+    "id_images": "frame_0002_jpg.rf.e4b12761941558c083a49d3333846107.jpg",
+    "car": "10",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "10"
+  },
+  {
+    "id_images": "frame_0003_jpg.rf.7c2116971d2c01aa6a2c7d287dc7353f.jpg",
+    "car": "8",
+    "truck": "1",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "10"
+  },
+  {
+    "id_images": "frame_0004_jpg.rf.12248386a7587cb7661b4dee6a3bb0d9.jpg",
+    "car": "11",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "11"
+  },
+  {
+    "id_images": "frame_0005_jpg.rf.8907ad10338dce149ad20ac8c77113b9.jpg",
+    "car": "8",
+    "truck": "2",
+    "bus": "2",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "12"
+  },
+  {
+    "id_images": "frame_0006_jpg.rf.6b1875a5470abfd2de41f9007da4d723.jpg",
+    "car": "8",
+    "truck": "1",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "10"
+  },
+  {
+    "id_images": "frame_0007_jpg.rf.b9fdf83404f39e18aaae4947321b35e6.jpg",
+    "car": "7",
+    "truck": "0",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "8"
+  },
+  {
+    "id_images": "frame_0008_jpg.rf.184c214f20a7aba15ae60b3d124e3bc7.jpg",
+    "car": "9",
+    "truck": "1",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "10"
+  },
+  {
+    "id_images": "frame_0009_jpg.rf.5950661ae32f832088e01a47d6033a47.jpg",
+    "car": "11",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "11"
+  },
+  {
+    "id_images": "frame_0010_jpg.rf.55034381d5c5aee5b5540fc5622f0776.jpg",
+    "car": "8",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "8"
+  },
+  {
+    "id_images": "frame_0011_jpg.rf.e5b67e2baba2352f77dcd2808a6bbd27.jpg",
+    "car": "8",
+    "truck": "0",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "9"
+  },
+  {
+    "id_images": "frame_0012_jpg.rf.5c1849cc75d988f0d6d982510a0cc2b4.jpg",
+    "car": "5",
+    "truck": "0",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "6"
+  },
+  {
+    "id_images": "frame_0013_jpg.rf.357f72529cdc7e5b6af06a363fd73719.jpg",
+    "car": "6",
+    "truck": "1",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "8"
+  },
+  {
+    "id_images": "frame_0014_jpg.rf.40f6cac95cf0728a7802ad0a2f0080f0.jpg",
+    "car": "9",
+    "truck": "1",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "11"
+  },
+  {
+    "id_images": "frame_0015_jpg.rf.48a0329d0c8e9c33775d418866e3a695.jpg",
+    "car": "7",
+    "truck": "1",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "8"
+  },
+  {
+    "id_images": "frame_0016_jpg.rf.4b7bb307e62da7dfe96c343c17de9bb4.jpg",
+    "car": "8",
+    "truck": "0",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "9"
+  },
+  {
+    "id_images": "frame_0017_jpg.rf.7408b996df938dece3f0a9a0082c0b16.jpg",
+    "car": "6",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "6"
+  },
+  {
+    "id_images": "frame_0018_jpg.rf.a83e3f41a3eaf23a89719d7786ae24ca.jpg",
+    "car": "11",
+    "truck": "0",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "12"
+  },
+  {
+    "id_images": "frame_0019_jpg.rf.939c6446e0a81bceff0394d97aa2cdae.jpg",
+    "car": "9",
+    "truck": "2",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "12"
+  },
+  {
+    "id_images": "frame_0020_jpg.rf.d14761acb6d32ee36c517a1ab7ce7e7a.jpg",
+    "car": "7",
+    "truck": "1",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "9"
+  },
+  {
+    "id_images": "frame_0021_jpg.rf.986e51e419cd8677d8dcc8b92dab6144.jpg",
+    "car": "4",
+    "truck": "1",
+    "bus": "2",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "7"
+  },
+  {
+    "id_images": "frame_0022_jpg.rf.65d93be59b76f5224deb09667c61d902.jpg",
+    "car": "10",
+    "truck": "2",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "12"
+  },
+  {
+    "id_images": "frame_0023_jpg.rf.791b4be66e82c07ea343c5a8855912da.jpg",
+    "car": "8",
+    "truck": "1",
+    "bus": "2",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "11"
+  },
+  {
+    "id_images": "frame_0024_jpg.rf.039b5e3437342f36bd3071ada4d5afaa.jpg",
+    "car": "8",
+    "truck": "1",
+    "bus": "2",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "11"
+  },
+  {
+    "id_images": "frame_0025_jpg.rf.64434d1ed14f96b1b57ea25919f3afdb.jpg",
+    "car": "6",
+    "truck": "0",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "7"
+  },
+  {
+    "id_images": "frame_0026_jpg.rf.f07f605856c02485be3806663f9f4131.jpg",
+    "car": "11",
+    "truck": "2",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "14"
+  },
+  {
+    "id_images": "frame_0027_jpg.rf.78b23d40ded357c7d5d65924b1873fa6.jpg",
+    "car": "10",
+    "truck": "0",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "11"
+  },
+  {
+    "id_images": "frame_0028_jpg.rf.6917649f688f04d0366832f7ee88af29.jpg",
+    "car": "10",
+    "truck": "1",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "12"
+  },
+  {
+    "id_images": "frame_0029_jpg.rf.a5b62fb20bf08d26569a9fa7f99f4751.jpg",
+    "car": "2",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "2"
+  },
+  {
+    "id_images": "frame_0030_jpg.rf.96e11ebd62395f73005da6df6d1af8d5.jpg",
+    "car": "8",
+    "truck": "0",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "9"
+  },
+  {
+    "id_images": "frame_0031_jpg.rf.4733e118a71b062f9acf03916af00bbd.jpg",
+    "car": "9",
+    "truck": "0",
+    "bus": "2",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "11"
+  },
+  {
+    "id_images": "frame_0032_jpg.rf.e1cb26572f3fc9dab14c04ee05dc8d3a.jpg",
+    "car": "5",
+    "truck": "0",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "6"
+  },
+  {
+    "id_images": "frame_0033_jpg.rf.ad371b2d2e05ff61a5e9ff25d36a1f17.jpg",
+    "car": "14",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "14"
+  },
+  {
+    "id_images": "frame_0034_jpg.rf.51fb87dd845c70037c824c2a369d6ede.jpg",
+    "car": "9",
+    "truck": "2",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "11"
+  },
+  {
+    "id_images": "frame_0035_jpg.rf.98cf9de9565ec0cd4e483f166992a1e6.jpg",
+    "car": "8",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "8"
+  },
+  {
+    "id_images": "frame_0036_jpg.rf.dcac2ae0ad2981bcf1b754785e417afc.jpg",
+    "car": "4",
+    "truck": "0",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "5"
+  },
+  {
+    "id_images": "frame_0037_jpg.rf.5868188771f0e124c5eab8c52eeef862.jpg",
+    "car": "5",
+    "truck": "1",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "7"
+  },
+  {
+    "id_images": "frame_0038_jpg.rf.3ffc59a26faa6db8ce5e0c18542e37c5.jpg",
+    "car": "9",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "9"
+  },
+  {
+    "id_images": "frame_0039_jpg.rf.67c3eb5e9cbb249ae7037a4b6e7fbc37.jpg",
+    "car": "9",
+    "truck": "1",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "10"
+  },
+  {
+    "id_images": "frame_0040_jpg.rf.5c6d1ceb12715500ac3f28734052485d.jpg",
+    "car": "3",
+    "truck": "0",
+    "bus": "2",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "5"
+  },
+  {
+    "id_images": "frame_0041_jpg.rf.6853cfa6f26d50053b45eeb164c5c7aa.jpg",
+    "car": "13",
+    "truck": "1",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "15"
+  },
+  {
+    "id_images": "frame_0042_jpg.rf.772b0a91115c3a0a47bcc0dfb6f94355.jpg",
+    "car": "5",
+    "truck": "1",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "7"
+  },
+  {
+    "id_images": "frame_0043_jpg.rf.121fd4c433686edc7eb33890a8c88181.jpg",
+    "car": "12",
+    "truck": "0",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "13"
+  },
+  {
+    "id_images": "frame_0044_jpg.rf.c5f1a55f1ea066f204c59ff725580627.jpg",
+    "car": "10",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "10"
+  },
+  {
+    "id_images": "frame_0045_jpg.rf.eff77280908ac434192e1d131bff3176.jpg",
+    "car": "7",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "7"
+  },
+  {
+    "id_images": "frame_0046_jpg.rf.a037d01b79be00c1894bfc733c459c0a.jpg",
+    "car": "10",
+    "truck": "2",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "12"
+  },
+  {
+    "id_images": "frame_0047_jpg.rf.a684d566de3a1d820b91c5f011b95144.jpg",
+    "car": "6",
+    "truck": "0",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "7"
+  },
+  {
+    "id_images": "frame_0048_jpg.rf.392fd7076164e74100bd02a735d1055b.jpg",
+    "car": "7",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "7"
+  },
+  {
+    "id_images": "frame_0049_jpg.rf.43054b93ca8d85f65f29a3bd3567fd21.jpg",
+    "car": "7",
+    "truck": "0",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "8"
+  },
+  {
+    "id_images": "frame_0050_jpg.rf.e2cbc8bfa4a72d375cf87eb5234d4dac.jpg",
+    "car": "11",
+    "truck": "1",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "12"
+  },
+  {
+    "id_images": "frame_0051_jpg.rf.20ba2a4ac922e3820ffcbe93736d7a84.jpg",
+    "car": "6",
+    "truck": "4",
+    "bus": "2",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "12"
+  },
+  {
+    "id_images": "frame_0052_jpg.rf.fa79b7f3520e949aa06d163cf89fa800.jpg",
+    "car": "12",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "12"
+  },
+  {
+    "id_images": "frame_0053_jpg.rf.abc7f85da91264a12b493f1174a18b59.jpg",
+    "car": "13",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "13"
+  },
+  {
+    "id_images": "frame_0054_jpg.rf.3aaca8248dcd001079505a3f1ccb9c37.jpg",
+    "car": "9",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "9"
+  },
+  {
+    "id_images": "frame_0055_jpg.rf.25556b67b8b9f7f5a339db74f3b81722.jpg",
+    "car": "9",
+    "truck": "1",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "10"
+  },
+  {
+    "id_images": "frame_0056_jpg.rf.a27e6ca000076debb274a0378ec79c07.jpg",
+    "car": "8",
+    "truck": "1",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "10"
+  },
+  {
+    "id_images": "frame_0057_jpg.rf.f24751a2cb06ccf69289fc2037b3fe7f.jpg",
+    "car": "14",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "14"
+  },
+  {
+    "id_images": "frame_0058_jpg.rf.e4be45584f72181cd42b37461e0cf743.jpg",
+    "car": "10",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "10"
+  },
+  {
+    "id_images": "frame_0059_jpg.rf.2ecfbb79b731d94e02759b7c54595a27.jpg",
+    "car": "8",
+    "truck": "1",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "9"
+  },
+  {
+    "id_images": "frame_0060_jpg.rf.a724068f0ca32f4c8cf8ba95ac8921d2.jpg",
+    "car": "6",
+    "truck": "1",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "8"
+  },
+  {
+    "id_images": "frame_0061_jpg.rf.f8e43ff988557166ccaad92d2ceeb64b.jpg",
+    "car": "9",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "9"
+  },
+  {
+    "id_images": "frame_0062_jpg.rf.29cf3aed3fabf39b7f84ba710537dc84.jpg",
+    "car": "6",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "6"
+  },
+  {
+    "id_images": "frame_0063_jpg.rf.5b14bb758b9de897b77b195deeb7fbce.jpg",
+    "car": "10",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "10"
+  },
+  {
+    "id_images": "frame_0064_jpg.rf.fd971c2f5ae52d54ea44edbc9f36622f.jpg",
+    "car": "6",
+    "truck": "0",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "7"
+  },
+  {
+    "id_images": "frame_0065_jpg.rf.f447b9fcba30ea34392d38f66a2efd86.jpg",
+    "car": "8",
+    "truck": "1",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "9"
+  },
+  {
+    "id_images": "frame_0066_jpg.rf.647fdf4e1717e5476a52f9b33c2a6277.jpg",
+    "car": "8",
+    "truck": "1",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "9"
+  },
+  {
+    "id_images": "frame_0067_jpg.rf.dec50854e66336e9326acd2c02ece4c7.jpg",
+    "car": "9",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "9"
+  },
+  {
+    "id_images": "frame_0068_jpg.rf.44a0d5084977de3e4985ac3c7552d7ff.jpg",
+    "car": "12",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "12"
+  },
+  {
+    "id_images": "frame_0069_jpg.rf.8620500a4b03d9887d0a29f6faa762c6.jpg",
+    "car": "7",
+    "truck": "1",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "9"
+  },
+  {
+    "id_images": "frame_0070_jpg.rf.746665d9a645d2e54734a242bec02d49.jpg",
+    "car": "8",
+    "truck": "2",
+    "bus": "2",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "12"
+  },
+  {
+    "id_images": "frame_0071_jpg.rf.85a16a0a5f360836ecc8240743da2b4d.jpg",
+    "car": "6",
+    "truck": "1",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "8"
+  },
+  {
+    "id_images": "frame_0072_jpg.rf.7d8b5f10531e3e287dc16d65e0e93649.jpg",
+    "car": "9",
+    "truck": "0",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "10"
+  },
+  {
+    "id_images": "frame_0073_jpg.rf.294492337e101300e58b9553cb4cbdfc.jpg",
+    "car": "8",
+    "truck": "1",
+    "bus": "2",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "11"
+  },
+  {
+    "id_images": "frame_0074_jpg.rf.2ab74302a39572ab9218e4925665d6ea.jpg",
+    "car": "8",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "8"
+  },
+  {
+    "id_images": "frame_0075_jpg.rf.4638a4706bc7507e0a76c7a53130b310.jpg",
+    "car": "14",
+    "truck": "2",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "16"
+  },
+  {
+    "id_images": "frame_0076_jpg.rf.bea0a7942d6ba1a1193b7de0c184bee3.jpg",
+    "car": "13",
+    "truck": "1",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "15"
+  },
+  {
+    "id_images": "frame_0077_jpg.rf.001bd3fbcb8cc93e1eeccde857aa7efc.jpg",
+    "car": "2",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "2"
+  },
+  {
+    "id_images": "frame_0078_jpg.rf.2427c46ee65cfdcb702148e2dd40cf10.jpg",
+    "car": "5",
+    "truck": "0",
+    "bus": "2",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "7"
+  },
+  {
+    "id_images": "frame_0079_jpg.rf.554fc1d3e1d8ddefe24cb1a26578b406.jpg",
+    "car": "9",
+    "truck": "1",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "11"
+  },
+  {
+    "id_images": "frame_0080_jpg.rf.0b7b72a79c0d1da4956c9be0c4eae43e.jpg",
+    "car": "12",
+    "truck": "0",
+    "bus": "2",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "14"
+  },
+  {
+    "id_images": "frame_0081_jpg.rf.40ff38fc7492d16d2bff7c8db890cacb.jpg",
+    "car": "12",
+    "truck": "1",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "13"
+  },
+  {
+    "id_images": "frame_0082_jpg.rf.9846781c295bd82cd090150340d17ef2.jpg",
+    "car": "5",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "5"
+  },
+  {
+    "id_images": "frame_0083_jpg.rf.d0d253d6bbb66f683309da8fbefbdd2c.jpg",
+    "car": "9",
+    "truck": "1",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "11"
+  },
+  {
+    "id_images": "frame_0084_jpg.rf.e935353036686b695cfeb597817b8ecf.jpg",
+    "car": "11",
+    "truck": "2",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "13"
+  },
+  {
+    "id_images": "frame_0085_jpg.rf.d4f6a477dbbf26837168207cb1d941ec.jpg",
+    "car": "12",
+    "truck": "1",
+    "bus": "2",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "15"
+  },
+  {
+    "id_images": "frame_0086_jpg.rf.2e85b6bc49d012951f3c7d8cc0474714.jpg",
+    "car": "7",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "7"
+  },
+  {
+    "id_images": "frame_0087_jpg.rf.bf56695bc655242d726ea0d42785971b.jpg",
+    "car": "12",
+    "truck": "0",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "13"
+  },
+  {
+    "id_images": "frame_0088_jpg.rf.f4a041cfa4d80598493ec3c22c8f12df.jpg",
+    "car": "11",
+    "truck": "1",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "12"
+  },
+  {
+    "id_images": "frame_0089_jpg.rf.57df2edb49e12e3eafde613778e29821.jpg",
+    "car": "8",
+    "truck": "0",
+    "bus": "2",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "10"
+  },
+  {
+    "id_images": "frame_0090_jpg.rf.86f7c02d52d306b9238f487483ccdf95.jpg",
+    "car": "9",
+    "truck": "2",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "12"
+  },
+  {
+    "id_images": "frame_0091_jpg.rf.b8b1c4c41251cd47e31e61557ad9e483.jpg",
+    "car": "11",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "11"
+  },
+  {
+    "id_images": "frame_0092_jpg.rf.04b6931c6474677f2b5d2de67458cb2f.jpg",
+    "car": "9",
+    "truck": "1",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "10"
+  },
+  {
+    "id_images": "frame_0093_jpg.rf.388e4d21382ba72d0d4130696431d6b4.jpg",
+    "car": "13",
+    "truck": "1",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "14"
+  },
+  {
+    "id_images": "frame_0094_jpg.rf.7dfe9671efbfd9ac5c061447b19c9ee8.jpg",
+    "car": "8",
+    "truck": "0",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "9"
+  },
+  {
+    "id_images": "frame_0095_jpg.rf.9175b3bc5041d8bb4fd3a14df000248b.jpg",
+    "car": "10",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "10"
+  },
+  {
+    "id_images": "frame_0096_jpg.rf.9b44a0bad10cc8532fefa9f86fdf581c.jpg",
+    "car": "14",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "14"
+  },
+  {
+    "id_images": "frame_0097_jpg.rf.23e7a196d0f9ca2df8afe3b3f309e321.jpg",
+    "car": "12",
+    "truck": "1",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "14"
+  },
+  {
+    "id_images": "frame_0098_jpg.rf.bbaef0d15cf8df88623f21221fb0be48.jpg",
+    "car": "12",
+    "truck": "0",
+    "bus": "0",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "12"
+  },
+  {
+    "id_images": "frame_0099_jpg.rf.f230b5a237bf1a0323b1263117c389dc.jpg",
+    "car": "8",
+    "truck": "3",
+    "bus": "1",
+    "rickshaw": "0",
+    "bicycle": "0",
+    "total": "12"
+  }
+]
