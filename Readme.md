@@ -11,6 +11,17 @@ git status
 git add .
 git commit -m "1st commit"
 git push -u origin main \ git push -u origin main --force
+
+
+---
+git rm --cached models/*.pt
+
+echo "models/*.pt" >> .gitignore
+
+git add .gitignore
+git commit -am "Ignorer les fichiers modèles (.pt) pour GitHub Codespaces"
+git push -u origin main --force
+
 ```
 
 ## main.py
