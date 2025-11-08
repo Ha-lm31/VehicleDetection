@@ -1,5 +1,45 @@
 [
   {
+    "model": "yolov9e",
+    "total_vehicles": 1719
+  },
+  {
+    "model": "yolov9c",
+    "total_vehicles": 1614
+  },
+  {
+    "model": "yolov10m",
+    "total_vehicles": 1599
+  },
+  {
+    "model": "yolov10b",
+    "total_vehicles": 1560
+  },
+  {
+    "model": "yolov9m",
+    "total_vehicles": 1556
+  },
+  {
+    "model": "yolov10x",
+    "total_vehicles": 1521
+  },
+  {
+    "model": "yolov9s",
+    "total_vehicles": 1473
+  },
+  {
+    "model": "yolov10l",
+    "total_vehicles": 1448
+  },
+  {
+    "model": "yolov10s",
+    "total_vehicles": 1274
+  },
+  {
+    "model": "yolov9t",
+    "total_vehicles": 1109
+  },
+  {
     "model": "yolov8x",
     "total_vehicles": 1108
   },
@@ -18,5 +58,9 @@
   {
     "model": "yolov8n",
     "total_vehicles": 1004
+  },
+  {
+    "model": "yolov10n",
+    "total_vehicles": 951
   }
 ]

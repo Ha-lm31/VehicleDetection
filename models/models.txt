@@ -1,0 +1,26 @@
+yolov8n.pt - déjà installé
+yolov8s.pt - déjà installé
+yolov8m.pt - déjà installé
+yolov8l.pt - déjà installé
+yolov8x.pt - déjà installé
+yolov9t.pt - installé
+yolov9s.pt - installé
+yolov9m.pt - installé
+yolov9c.pt - installé
+yolov9e.pt - installé
+yolov10n.pt - installé
+yolov10s.pt - installé
+yolov10m.pt - installé
+yolov10b.pt - installé
+yolov10l.pt - installé
+yolov10x.pt - installé
+yolov11n.pt - erreur: [Errno 2] No such file or directory: 'yolov11n.pt'
+yolov11s.pt - erreur: [Errno 2] No such file or directory: 'yolov11s.pt'
+yolov11m.pt - erreur: [Errno 2] No such file or directory: 'yolov11m.pt'
+yolov11l.pt - erreur: [Errno 2] No such file or directory: 'yolov11l.pt'
+yolov11x.pt - erreur: [Errno 2] No such file or directory: 'yolov11x.pt'
+yolov12n.pt - erreur: [Errno 2] No such file or directory: 'yolov12n.pt'
+yolov12s.pt - erreur: [Errno 2] No such file or directory: 'yolov12s.pt'
+yolov12m.pt - erreur: [Errno 2] No such file or directory: 'yolov12m.pt'
+yolov12l.pt - erreur: [Errno 2] No such file or directory: 'yolov12l.pt'
+yolov12x.pt - erreur: [Errno 2] No such file or directory: 'yolov12x.pt'
