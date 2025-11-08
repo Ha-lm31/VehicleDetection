@@ -1,14 +1,12 @@
-# main.py
-# Orchestration principale
-
+import time
 from model import model_fct
 from detect_db import detect_fct
-from eval import eval as run_eval
-import os
-import time
+from eval import eval
 
 if __name__ == "__main__":
-    # Liste initiale des modèles (nom de fichier attendu, ex: 'yolov8n.pt')
+    print("🚀 Démarrage du projet YOLOv8 - Détection de véhicules")
+
+    # 1️⃣ Liste des modèles à gérer
     models_list = [
         # YOLOv8
         "yolov8n.pt", "yolov8s.pt", "yolov8m.pt", "yolov8l.pt", "yolov8x.pt",
@@ -22,27 +20,25 @@ if __name__ == "__main__":
         "yolov12n.pt", "yolov12s.pt", "yolov12m.pt", "yolov12l.pt", "yolov12x.pt"
     ]
 
+    # 2️⃣ Téléchargement des nouveaux modèles
     t1 = time.time()
-    print("==> Initialisation / vérification des modèles ...")
-    models = model_fct(models_list)  # retourne la liste des modèles trouvés (chemins complets)
+    models = model_fct(models_list)  # renvoie uniquement les nouveaux téléchargés
     t2 = time.time()
+    print(f"⏱️ Durée du téléchargement des modèles : {t2 - t1:.2f} secondes")
 
-    if not models:
-        print("Aucun modèle disponible dans le dossier models/. Place manuellement les .pt ou vérifie la connexion.")
-    else:
-        print(f"Modèles disponibles : {len(models)}")
+    # 3️⃣ Détection si de nouveaux modèles ont été téléchargés
+    if models:
         t3 = time.time()
-        print("==> Lancement de la détection pour chaque modèle ...")
         detect_fct(models)
         t4 = time.time()
+        print(f"🔍 Durée du processus de détection : {t4 - t3:.2f} secondes")
+    else:
+        print("⚠️ Aucun nouveau modèle à détecter cette fois-ci.")
 
-        t5 = time.time()
-        print("==> Évaluation des modèles ...")
-        run_eval()
-        t6 = time.time()
+    # 4️⃣ Évaluation globale (peut comparer tous les modèles disponibles)
+    t5 = time.time()
+    eval()
+    t6 = time.time()
+    print(f"📊 Durée de l’évaluation des modèles : {t6 - t5:.2f} secondes")
 
-    print("Terminé.")
-
-print(f"⏱️ Durée du téléchargement des modèles : {t2 - t1:.2f} secondes")
-print(f"🔍 Durée du processus de détection : {t4 - t3:.2f} secondes")
-print(f"📊 Durée de l’évaluation des modèles : {t6 - t5:.2f} secondes")
+    print("✅ Exécution terminée avec succès.")

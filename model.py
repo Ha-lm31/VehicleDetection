@@ -1,95 +1,49 @@
-# model.py
-# Téléchargement et gestion des modèles YOLOv8
 import os
-import urllib.request
-import traceback
-
-MODELS_DIR = "/workspaces/model-V8/models"
-MODELS_TXT = os.path.join("/workspaces/model-V8", "models.txt")
-
-# Liens officiels Ultralytics YOLOv8 (HuggingFace)
-YOLO_URLS = {
-    "yolov8n.pt": "https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt",
-    "yolov8s.pt": "https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8s.pt",
-    "yolov8m.pt": "https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8m.pt",
-    "yolov8l.pt": "https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8l.pt",
-    "yolov8x.pt": "https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8x.pt",
-}
-
-
-def _ensure_dirs():
-    """Créer le dossier models s'il n'existe pas."""
-    os.makedirs(MODELS_DIR, exist_ok=True)
-
-
-def _write_models_txt(entries):
-    """Écrit le fichier models.txt avec l'état d'installation."""
-    with open(MODELS_TXT, "w", encoding="utf-8") as f:
-        for name, status in entries.items():
-            f.write(f"{name} : {status}\n")
-
-
-def _download_file(url, dest):
-    """Télécharge un fichier depuis une URL."""
-    try:
-        urllib.request.urlretrieve(url, dest)
-        return True
-    except Exception as e:
-        print(f"❌ Erreur lors du téléchargement de {url}: {e}")
-        return False
-
+from ultralytics import YOLO
+from tqdm import tqdm
 
 def model_fct(models_list):
     """
-    Télécharge les modèles YOLOv8 s'ils ne sont pas encore présents.
-    - Les fichiers sont placés dans /workspaces/model-V8/models/
-    - Un fichier models.txt est créé avec l'état (installé / erreur)
-    - Retourne la liste complète des chemins de modèles disponibles
+    Télécharge automatiquement les modèles YOLOv8 spécifiés dans 'models_list'
+    vers le dossier '/workspaces/model-V8/models'.
+    - Ne retélécharge pas les modèles déjà présents.
+    - Enregistre un log dans 'models/models.txt' avec le statut de chaque modèle.
+    - Retourne la liste des nouveaux modèles téléchargés.
     """
-    _ensure_dirs()
-    status = {}
-    found_models = []
 
-    for model_name in models_list:
-        model_path = os.path.join(MODELS_DIR, model_name)
+    models_dir = "/workspaces/model-V8/models"
+    os.makedirs(models_dir, exist_ok=True)
 
-        if os.path.isfile(model_path):
-            status[model_name] = "✅ déjà installé"
-            found_models.append(model_path)
-            continue
+    log_path = os.path.join(models_dir, "models.txt")
+    installed_models = []
+    newly_downloaded = []
 
-        print(f"⬇️ Téléchargement du modèle {model_name} ...")
+    # Charger la liste des modèles déjà installés à partir du fichier log
+    if os.path.exists(log_path):
+        with open(log_path, "r") as f:
+            for line in f:
+                parts = line.strip().split(" - ")
+                if len(parts) >= 2 and parts[1] == "installé":
+                    installed_models.append(parts[0])
 
-        # vérifier si on connaît l’URL
-        url = YOLO_URLS.get(model_name)
-        if url is None:
-            status[model_name] = "⚠️ URL inconnue (ajoute-la manuellement)"
-            print(f"URL manquante pour {model_name}.")
-            continue
+    # Télécharger uniquement les modèles absents
+    with open(log_path, "a") as log_file:
+        for model_name in tqdm(models_list, desc="📦 Téléchargement des modèles"):
+            model_path = os.path.join(models_dir, model_name)
 
-        try:
-            ok = _download_file(url, model_path)
-            if ok and os.path.isfile(model_path):
-                status[model_name] = "✅ installé"
-                found_models.append(model_path)
-                print(f"✔️ {model_name} téléchargé avec succès.")
-            else:
-                status[model_name] = "❌ erreur téléchargement"
-        except Exception:
-            traceback.print_exc()
-            status[model_name] = "❌ exception pendant le téléchargement"
+            try:
+                if model_name not in installed_models and not os.path.exists(model_path):
+                    print(f"⬇️ Téléchargement de {model_name} ...")
+                    model = YOLO(model_name)  # télécharge automatiquement
+                    model.save(model_path)
+                    log_file.write(f"{model_name} - installé\n")
+                    newly_downloaded.append(model_name)
+                else:
+                    log_file.write(f"{model_name} - déjà installé\n")
 
-    # Lister aussi les modèles déjà présents
-    for fname in os.listdir(MODELS_DIR):
-        if fname.endswith(".pt"):
-            path = os.path.join(MODELS_DIR, fname)
-            if path not in found_models:
-                found_models.append(path)
-                if fname not in status:
-                    status[fname] = "✅ trouvé localement"
+            except Exception as e:
+                log_file.write(f"{model_name} - erreur: {str(e)}\n")
+                print(f"❌ Erreur lors du téléchargement de {model_name}: {e}")
 
-    # Écriture du fichier models.txt
-    _write_models_txt(status)
-    print(f"📝 État des modèles écrit dans {MODELS_TXT}")
-
-    return found_models
+    print(f"\n✅ Téléchargement terminé. Nouveaux modèles : {newly_downloaded}")
+    return newly_downloaded
