@@ -22,6 +22,19 @@ git add .gitignore
 git commit -am "Ignorer les fichiers modèles (.pt) pour GitHub Codespaces"
 git push -u origin main --force
 
+---
+# Installer BFG Repo-Cleaner (outil rapide pour nettoyer l'historique)
+sudo apt-get update && sudo apt-get install -y openjdk-17-jre-headless
+wget https://repo1.maven.org/maven2/com/madgag/bfg/1.14.0/bfg-1.14.0.jar -O bfg.jar
+
+# Supprimer tous les fichiers .pt de l'historique Git
+java -jar bfg.jar --delete-files *.pt
+
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
+
+git push origin --force
+
+
 ```
 
 ## main.py
